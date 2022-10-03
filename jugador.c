@@ -1,4 +1,11 @@
-
+/* se refactorizaron las funciones inicializarJugador y cargarJugador
+* para que operen a modo de envoltorio (wrapper) de la funcion creaJugador
+* Como referencia se indican las siguientes fuentes:
+* https://techlib.net/blog/que-es-la-funcion-wrapper-en-la-programacion-informatica-donde-se-puede-utilizar-precisamente/
+*
+* https://ajaxhispano.com/ask/donde-y-como-se-utiliza-el-termino-wrapper-en-la-programacion-que-ayuda-a-hacer-31738/
+*
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
