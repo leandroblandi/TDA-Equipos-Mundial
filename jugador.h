@@ -28,6 +28,10 @@ int getCamiseta(Jugador jugador);
  * Funciones de Jugador
  ***********************************************/
 
+ /// @pre: Ninguna
+/// @post: Construye y Devuelve un struct jugador con parametros indicados
+Jugador creaJugador(char nom[30], int numc,float p);
+
 /// @pre: Ninguna
 /// @post: Devuelve un struct jugador vacio (en principio, no se muestra, se filtra)
 Jugador inicializarJugador();
