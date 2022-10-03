@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1664804551 source:c:\users\el3be\documents\practicas en c\mundial\jugador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1664804554 c:\users\el3be\documents\practicas en c\mundial\jugador.h
+
+1664806605 source:c:\users\el3be\documents\practicas en c\mundial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mundial.h"
+
+1664804876 c:\users\el3be\documents\practicas en c\mundial\equipo.h
+
+1664806501 source:c:\users\el3be\documents\practicas en c\mundial\equipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"equipo.h"
+	"jugador.h"
+
+1664805740 c:\users\el3be\documents\practicas en c\mundial\mundial.h
+
+1664806756 source:c:\users\el3be\documents\practicas en c\mundial\mundial.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"equipo.h"
+	"mundial.h"
+
