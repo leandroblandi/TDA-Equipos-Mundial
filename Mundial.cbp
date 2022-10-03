@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="equipo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="equipo.h" />
 		<Unit filename="jugador.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -38,6 +42,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="mundial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mundial.h" />
 		<Extensions>
 			<DoxyBlocks>
 				<comment_style block="4" line="2" />
