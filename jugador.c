@@ -12,7 +12,10 @@ struct _Jugador
     float puntaje;
 };
 
-/// Setters
+
+/********************************************//**
+ * Setters
+ ***********************************************/
 
 void setNombreJugador(Jugador jugador, char nuevoNombre[30])
 {
@@ -32,7 +35,9 @@ void setPuntajeJugador(Jugador jugador, float nuevoPuntaje)
 }
 
 
-/// Getters
+/********************************************//**
+ * Getters
+ ***********************************************/
 
 char * getNombreJugador(Jugador jugador)
 {
@@ -46,7 +51,9 @@ int getCamiseta(Jugador jugador)
 }
 
 
-/// Funciones del jugador
+/********************************************//**
+ * Funciones del Jugador
+ ***********************************************/
 
 Jugador inicializarJugador()
 {

@@ -16,6 +16,10 @@ struct _Equipo
     Jugador plantel[CANTIDAD_JUGADORES];
 };
 
+/********************************************//**
+ * Funciones de Equipo
+ ***********************************************/
+
 
 Equipo cargarEquipo()
 {
@@ -48,7 +52,9 @@ void mostrarEquipo(Equipo equipo)
     }
 }
 
-
+// Funcion interna de equipo.c no incluida en equipo.h
+/// @pre: Debe existir 'equipo' y 'loQueBusco' debe ser entero
+/// @post: Devuelve -1 si no se encuentra 'loQueBusco'; devuelve la posicion deseada si 'loQueBusco' se encontro
 int buscarPorCamiseta(Equipo equipo, int loQueBusco)
 {
     int posicion = -1;

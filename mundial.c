@@ -15,6 +15,11 @@ struct _Mundial
     Equipo selecciones[CANTIDAD_SELECCIONES];
 };
 
+
+/********************************************//**
+ * Funciones del Mundial
+ ***********************************************/
+
 Mundial cargarMundial()
 {
     Mundial mundial = malloc(sizeof(struct _Mundial));
